@@ -2,8 +2,8 @@
 
 :root {
   color-scheme: light;
-  --background: #f6f7fb;
-  --foreground: #19202a;
+  --background: #f0f2f5;
+  --foreground: #111827;
 }
 
 * {
@@ -14,7 +14,8 @@ body {
   margin: 0;
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 button,
